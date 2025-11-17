@@ -3,7 +3,7 @@ import HeroSection2 from "../Components/HeroSection/HeroSection2";
 import Section from "../Components/Section";
 import CtaSection3 from "../Components/CtaSection/CtaSection3";
 import AboutSection2 from "../Components/About/AboutSection2";
-import ServiceSection3 from "../Components/Service/ServiceSection3";
+// import ServiceSection3 from "../Components/Service/ServiceSection3";
 import MedicalSolution2 from "../Components/MedicalSolutionSection/MedicalSolution2";
 import DentalSolution from "../Components/DentalSolution";
 import TimelineSection from "../Components/TimelineSection";
@@ -532,7 +532,7 @@ const home3 = () => {
       {/* End About Section */}
 
       {/* Start Service Section */}
-      <Section
+      {/* <Section
         topSpaceLg="70"
         topSpaceMd="110"
         bottomSpaceLg="80"
@@ -540,7 +540,7 @@ const home3 = () => {
         className="cs_gray_bg"
       >
         <ServiceSection3 data={serviceSectionData} />
-      </Section>
+      </Section> */}
       {/* End Service Section */}
 
       {/* Start Medical Solution Section */}

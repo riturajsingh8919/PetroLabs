@@ -71,12 +71,7 @@ const ServiceSection3 = ({ data }) => {
                         }}
                       />
                       <div className="cs_iconbox_icon cs_center">
-                        <Image
-                          src={slide.iconSrc}
-                          alt="icon"
-                          width={94}
-                          height={94}
-                        />
+                        <slide.icon />
                       </div>
                       <h3 className="cs_iconbox_title">
                         <Link href={slide.detailsLink}>{slide.title}</Link>
@@ -89,7 +84,6 @@ const ServiceSection3 = ({ data }) => {
                         btnUrl={slide.detailsLink}
                         variant={"cs_iconbox_btn"}
                       />
-
                       <div className="cs_iconbox_shape_1 position-absolute" />
                       <div className="cs_iconbox_shape_2 position-absolute" />
                     </div>

@@ -28,12 +28,7 @@ const ServiceSection2 = ({ data }) => {
             <div className="col-12" key={index}>
               <div className="cs_iconbox cs_style_5 cs_radius_10 position-relative">
                 <div className="cs_iconbox_icon cs_center">
-                  <Image
-                    src={service.iconSrc}
-                    alt="icon"
-                    width={94}
-                    height={94}
-                  />
+                  <service.icon />
                 </div>
                 <h3 className="cs_iconbox_title cs_white_color mb-0">
                   <Link href={service.link}>{service.title}</Link>
